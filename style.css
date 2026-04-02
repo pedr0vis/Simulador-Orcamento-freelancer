@@ -1,0 +1,228 @@
+/* CORES PARA O SITE
+
+títulos e seções
+#0A2647
+
+botões
+#144272 ou #2C74B3
+
+background
+#F8FAFC
+
+corpo do texto
+#334155
+
+*/
+
+body {
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #416c96;
+
+}
+
+header {
+
+    background-color: #0A2647;
+    color: #F8FAFC;
+    text-align: left;
+    padding: 1rem 1rem;
+
+}
+
+.cabecalho {
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    color: #F8FAFC;
+
+}
+
+.navegacao nav a {
+
+    color: #F8FAFC;
+    text-decoration: none;
+    margin: 0.5rem;
+    padding: 0.5rem 1 rem;
+
+}
+
+.navegacao nav a:hover {
+
+    color: rgb(154, 154, 154);
+
+}
+
+.navegacao nav img {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+
+}
+
+#titulo {
+
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 18pt;
+    font-weight: 600;
+
+}
+
+main {
+
+    width: 80%;
+    margin: 2rem auto;
+
+}
+
+main p {
+
+    color: #F8FAFC;
+
+}
+
+main h2 {
+
+    color: #F8FAFC;
+
+}
+
+.categoria {
+
+    margin-bottom: 2rem;
+
+}
+
+.services {
+
+    background-color: #0A2647;
+    color: #F8FAFC;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.services h3 {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+.services img {
+
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+
+}
+
+.preco {
+
+    font-weight: bold;
+    color: #F8FAFC;
+    margin-bottom: 1rem;
+
+}
+
+.adicionar {
+
+    background-color: #2C74B3;
+    color: #F8FAFC;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.adicionar:hover {
+
+    background-color: #144272;
+    color: #fef8f8;
+
+}
+
+#finalizar-contrata {
+
+    background-color: #2C74B3;
+    padding: 1rem;
+    border-radius: 8px;
+    color: #F8FAFC;
+
+}
+
+#lista-contrata {
+
+    list-style: none;
+    padding: 0;
+
+}
+
+#finalizar-contrata {
+
+    background-color: #144272;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+
+}
+
+#finalizar-contrata:hover {
+
+    background-color: #2C74B3;
+
+}
+
+#contato {
+
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+.redes-sociais a {
+
+    background-color: #144272;
+    color: #F8FAFC;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 0.5rem;
+
+}
+
+.redes-sociais a:hover {
+
+    background-color: #2C74B3;
+    color: #fef8f8;
+
+}
+
+footer{
+
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #0A2647;
+    color: #fef8f8;
+
+}
+
+footer a {
+
+    color: #F8FAFC;
+
+}
