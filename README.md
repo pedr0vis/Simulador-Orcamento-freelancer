@@ -25,4 +25,8 @@ Houve a tentativa de utilizar o bootstrap, porém não gostei como estava ficand
 
 - `Perfil Github` : <a href="https://github.com/pedr0vis">pedr0vis</a>
 - `Link Repositório` : <a href="https://github.com/pedr0vis/Projeto-login">Repositório</a>
+<<<<<<< HEAD
 - `README.md` : <a href="https://github.com/pedr0vis/Projeto-login/blob/main/README.md">README</a>
+=======
+- `README.md` : <a href="https://github.com/pedr0vis/Projeto-login/blob/main/README.md">README</a>
+>>>>>>> origin/main
