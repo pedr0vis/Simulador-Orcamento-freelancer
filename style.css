@@ -27,7 +27,6 @@ header {
 
     background-color: #0A2647;
     color: #F8FAFC;
-    text-align: left;
     padding: 1rem 1rem;
 
 }
@@ -36,13 +35,13 @@ header {
 
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: space-around;
     text-align: center;
     color: #F8FAFC;
 
 }
 
-.navegacao nav a {
+.cabecalho nav a {
 
     color: #F8FAFC;
     text-decoration: none;
@@ -51,17 +50,18 @@ header {
 
 }
 
-.navegacao nav a:hover {
+.cabecalho nav a:hover {
 
     color: rgb(154, 154, 154);
 
 }
 
-.navegacao nav img {
+.cabecalho img {
 
     width: 60px;
     height: 60px;
     border-radius: 10px;
+    
 
 }
 
@@ -83,6 +83,12 @@ main {
 main p {
 
     color: #F8FAFC;
+
+}
+
+.sobre-mim {
+
+    text-align: justify;
 
 }
 
@@ -121,10 +127,11 @@ main h2 {
 
 .services img {
 
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 
 }
 
